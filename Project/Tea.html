@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Tailwind css -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -16,14 +16,14 @@
         },
       };
     </script>
-    <!-- google font -->
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
-    <!-- font awesome -->
+    <!-- Font Awesome -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
       crossorigin="anonymous"
@@ -31,42 +31,46 @@
     <title>Tea House Website</title>
   </head>
   <body>
-    <!-- Main content -->
-    <main class="max-width-screen-xl mx-auto px-16 lg:px-28">
+    <!-- Main Content -->
+    <main class="max-w-screen-xl mx-auto px-4 md:px-10 lg:px-16">
       <!-- Header Section -->
-      <header class="flex pt-10 mb-20">
-        <!-- Text content -->
+      <header
+        class="flex flex-col lg:flex-row justify-center items-center text-center lg:text-left space-y-10 lg:space-y-0 lg:space-x-16 py-20"
+      >
+        <!-- Text Content -->
         <div>
           <h2 class="text-5xl md:text-7xl font-bold">
             It's good<br />tea time at The<br />Tea House
           </h2>
-          <br />
-          <p class="text-xs text-[#777]">
-            Tea and Botanical Solutions Supplier Give Optimum <br />Satisfaction
-            To Your Taste Buds.
+          <p class="text-xs text-[#777] mt-6">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
           </p>
-          <br />
           <button
-            class="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg mt-6 text-white "
+            class="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg mt-6 text-white"
           >
             Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
           </button>
         </div>
-        <!-- Image content -->
+        <!-- Image Content -->
         <div class="relative">
-          <img class="w-full" src="images/banner.png " alt="Cold Coffee"/>
+          <img
+            class="w-full max-w-sm md:max-w-md lg:max-w-lg"
+            src="images/banner.png"
+            alt="Cold Coffee"
+          />
           <!-- card -->
           <div class="absolute flex justify-center items-center gap-3 bg-white shadow-lg px-4 py-4 md:px-6 md:py-6 rounded-lg top-40 md:top-80 md:left-20 lg:left-24 w-60">
-            <!-- icon -->
+            <!-- Icon -->
             <div>
-                <i class="text-[#FFC850] pt-2 text-4xl fa-solid fa-star"></i>
+              <i class="text-[#FFC850] pt-2 text-4xl fa-solid fa-star"></i>
             </div>
-            <!-- text -->
-             <div>
-                <h1 class="font-bold text-3xl">5.00</h1>
-                <p class="text-[#777777] text-sm">Trust Pilot Ratings</p>
-             </div>
-           </div>
+            <!-- Text -->
+            <div>
+              <h1 class="font-bold text-3xl">5.00</h1>
+              <p class="text-[#777777] text-sm">Trust Pilot Ratings</p>
+            </div>
+          </div>
         </div>
       </header>
     </main>
